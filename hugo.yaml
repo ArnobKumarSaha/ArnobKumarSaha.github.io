@@ -1,0 +1,86 @@
+baseURL: "https://arnobkumarsaha.github.io/"
+languageCode: en-us
+title: "Arnob Kumar Saha"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "Platform and DevOps engineering — Kubernetes, Go, GitOps."
+  author: "Arnob Kumar Saha"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  profileMode:
+    enabled: true
+    title: "Arnob Kumar Saha"
+    subtitle: "Platform engineer and team lead at AppsCode. I work on Kubernetes operators, GitOps delivery and the infrastructure that keeps databases alive in production."
+    imageUrl: "https://github.com/ArnobKumarSaha.png"
+    imageTitle: "Arnob Kumar Saha"
+    imageWidth: 140
+    imageHeight: 140
+    buttons:
+      - name: Posts
+        url: posts
+      - name: About
+        url: about
+      - name: Tags
+        url: tags
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ArnobKumarSaha"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/arnobkumarsaha/"
+    - name: email
+      url: "mailto:arnob@appscode.com"
+    - name: rss
+      url: "index.xml"
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: github-dark
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
