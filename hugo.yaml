@@ -46,7 +46,7 @@ params:
     - name: github
       url: "https://github.com/ArnobKumarSaha"
     - name: linkedin
-      url: "https://www.linkedin.com/in/arnobkumarsaha/"
+      url: "https://www.linkedin.com/in/arnob-kumar-saha/"
     - name: email
       url: "mailto:arnob@appscode.com"
     - name: rss
