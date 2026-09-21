@@ -48,7 +48,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/arnob-kumar-saha/"
     - name: email
-      url: "mailto:arnob@appscode.com"
+      url: "mailto:arnobkumarsaha00@gmail.com"
     - name: rss
       url: "index.xml"
 
